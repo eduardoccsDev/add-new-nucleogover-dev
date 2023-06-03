@@ -1,0 +1,135 @@
+/*
+Nome do tema: Hora News
+Descrição: Teste hora news.
+Autor: Eduardo castro
+Versão: 1.0
+*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+*{
+  padding:0;
+  margin:0;
+}
+body {
+  font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+  color: #001A33;
+  background-color: #F5F5F5;
+}
+.header {
+  background-color: #0B2A7A;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pageName{
+  font-weight: 500;
+}
+.navBar{
+  background-color: #001A5B;
+  padding:.5em;
+}
+.navBar a{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:600;
+  font-size: 12px;
+}
+.container{
+  width: 1200px;
+  margin: auto;
+}
+.gridPosts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.post{
+  background-color: #fff;
+  border: solid 2px #e0e0e0;
+  border-radius: 5px;
+  width: 23%;
+  text-decoration: none;
+}
+.post-thumbnail img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+}
+.infoPost{
+  padding: 1em;
+}
+.post-date{
+  color:#69C549;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+.containerNoticias, .containerSingle{
+  padding-block:4em;
+}
+.container h2{
+  margin-bottom: 1em;
+  color: #303234;
+}
+.post-content{
+  color: #303234;
+  font-weight: 600;
+}
+.page-numbers{
+  background-color: #0B2A7A;
+  text-decoration: none;
+  color: #fff;
+  padding: .7em 1em;
+  border-right: 1px solid #f5f5f5a9;
+}
+.page-numbers.next{
+  border-radius:0px 5px 5px 0px;
+}
+.page-numbers.prev{
+  border-radius:5px 0px 0px 5px;
+}
+.page-numbers:hover, .page-numbers.current{
+  background-color: #69C549;
+}
+.pagination {
+  width: 100%;
+  margin-top: 2em;
+}
+footer{
+  background-color: #001A5B;
+  color: #fff;
+  padding: .5em;
+  text-align: center;
+}
+.tittleArea {
+  display: flex;
+  justify-content: space-between;
+}
+.tittleArea a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #69C549;
+}
+.gridPosts.all{
+  justify-content: flex-start;
+}
+.post.all{
+margin: 5px;
+}
+.containerSingle .post-thumbnail img{
+  height: auto;
+  border-radius: 5px;
+}
+.containerSingle .post-title{
+  margin: 1em 0em 1em 0em;
+
+} 
+.containerSingle .post-date{
+  margin: 1em 0em 1em 0em;
+}
+.leia-mais{
+color: #69C549;
+text-decoration: none;
+font-weight: 600;
+}
